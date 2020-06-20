@@ -23,9 +23,9 @@ The work principle is the following:
 
 ## TODO
 With descending priority:
-[ ] Make sure server_config notes make sense and reflect the program algorithm.
-[ ] Change today variable's format in read.sh and send.sh to something that does not result in the generation of identical SHA1 ciphers.
-[ ] Make sure read.sh downloads necessary files from the place configured by the user.
-[ ] Make sure there is support for multiple files and the script can actually distinguish between a GPG key and a message.
-[ ] Either add rigorous (pubkey.sh-like) checks to the send.sh file, or rework both of them in such a way that the user can select what key they want to send to the Rendezvous.
-[ ] Write a script that is going to delete GPG keys upon them being downloaded from Rendezvous. Same applies to regular messages. Alternatively, they are purged every 24 hours.
+- [ ] Make sure server_config notes make sense and reflect the program algorithm.
+- [ ] Change today variable's format in read.sh and send.sh to something that does not result in the generation of identical SHA1 ciphers.
+- [ ] Make sure read.sh downloads necessary files from the place configured by the user.
+- [ ] Make sure there is support for multiple files and the script can actually distinguish between a GPG key and a message.
+- [ ] Either add rigorous (pubkey.sh-like) checks to the send.sh file, or rework both of them in such a way that the user can select what key they want to send to the Rendezvous.
+- [ ] Write a script that is going to delete GPG keys upon them being downloaded from Rendezvous. Same applies to regular messages. Alternatively, they are purged every 24 hours.
