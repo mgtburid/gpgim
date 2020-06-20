@@ -1,0 +1,13 @@
+# username is the name of the destination machine where all keys are sent to.
+# hostname is the name of the destination machine where all keys are sent to. If it is set to a certain value, 'ip' is ignored.
+# privkey is a path (absolute or relative) to the private key used for the SSH connection.
+# storage is a path (absolute) to the place on the destination machine where all keys are sent to.
+#
+# Make sure values go right after equation signs without spaces.
+# 'Factory' configuration is when all variables are set to 0.
+
+username=0
+hostname=0
+ip=0
+privkey=0
+storage=0
