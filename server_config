@@ -1,11 +1,11 @@
-# username is the name of the destination machine where all keys are sent to.
-# hostname is the name of the destination machine where all keys are sent to. If it is set to a certain value, 'ip' is ignored.
-# privkey is a path (absolute or relative) to the private key used for the SSH connection.
-# storage is a path (absolute) to the place on the destination machine where all keys are sent to.
+# username is the name of the user on Rendezvous.
+# hostname is the name of Rendezvous.
+# ip is the IP address of Rendezvous. If it is not 0, it is used instead of a hostname to connect to Rendezvous and leave everything it needs there.
+# privkey is a path to the private key used for the SSH connection to Rendezvous.
+# storage is a path to the place on Rendezvous where everything is put.
 #
-# Make sure values go right after equation signs without spaces.
+# Make sure values go right after equation signs without white spaces.
 # 'Factory' configuration is when all variables are set to 0.
-
 username=0
 hostname=0
 ip=0
