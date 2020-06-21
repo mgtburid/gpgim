@@ -2,7 +2,7 @@
 # hostname is the name of Rendezvous.
 # ip is the IP address of Rendezvous. If it is not 0, it is used instead of a hostname to connect to Rendezvous and leave everything it needs there.
 # privkey is a path to the private key used for the SSH connection to Rendezvous.
-# storage is a path to the place on Rendezvous where everything is put.
+# storage is a path to the place on Rendezvous where everything is put. Make sure the value has a trailing /.
 #
 # Make sure values go right after equation signs without white spaces.
 # 'Factory' configuration is when all variables are set to 0.
